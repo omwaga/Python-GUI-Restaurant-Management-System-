@@ -138,6 +138,25 @@ American_Coffee = Checkbutton(Drinks_F, text='American Coffee', variable=var7, o
 Ice_Cappuccino = Checkbutton(Drinks_F, text='Iced Cappuccino', variable=var8, onvalue=1, offvalue=0, font=('arial', 18, 'bold'),
                     bg="powder blue").grid(row=7, sticky=W)
 
+
+#==================================Entry for Drinks==========================================================
+txtLatta = Entry(Drinks_F, font=('arial', 16, 'bold'), bd=8, width=6, justify=LEFT, state=DISABLED)
+txtLatta.grid(row=0, column=1)
+txtEsspresso = Entry(Drinks_F, font=('arial', 16, 'bold'), bd=8, width=6, justify=LEFT, state=DISABLED)
+txtEsspresso.grid(row=1, column=1)
+IcedLatta = Entry(Drinks_F, font=('arial', 16, 'bold'), bd=8, width=6, justify=LEFT, state=DISABLED)
+IcedLatta.grid(row=2, column=1)
+ValeCoffee = Entry(Drinks_F, font=('arial', 16, 'bold'), bd=8, width=6, justify=LEFT, state=DISABLED)
+ValeCoffee.grid(row=3, column=1)
+txtCappuccino = Entry(Drinks_F, font=('arial', 16, 'bold'), bd=8, width=6, justify=LEFT, state=DISABLED)
+txtCappuccino.grid(row=4, column=1)
+AfricanCoffee = Entry(Drinks_F, font=('arial', 16, 'bold'), bd=8, width=6, justify=LEFT, state=DISABLED)
+AfricanCoffee.grid(row=5, column=1)
+AmericanCoffee = Entry(Drinks_F, font=('arial', 16, 'bold'), bd=8, width=6, justify=LEFT, state=DISABLED)
+AmericanCoffee.grid(row=6, column=1)
+IceCappuccino = Entry(Drinks_F, font=('arial', 16, 'bold'), bd=8, width=6, justify=LEFT, state=DISABLED)
+IceCappuccino.grid(row=7, column=1)
+
 #======================================cakes=========================================================================================
 SchoolCake = Checkbutton(Cakes_F, text='School Cake\t\t\t', variable=var9, onvalue=1, offvalue=0, font=('arial', 18, 'bold'),
                     bg="powder blue").grid(row=0, sticky=W)
@@ -155,4 +174,24 @@ Carlton_Hill_Cake = Checkbutton(Cakes_F, text='Carlton Hill Chocolate Cake', var
                     bg="powder blue").grid(row=6, sticky=W)
 Queen_Park_Cake = Checkbutton(Cakes_F, text='Queens Park Chocolate Cake', variable=var16, onvalue=1, offvalue=0, font=('arial', 18, 'bold'),
                     bg="powder blue").grid(row=7, sticky=W)
+
+
+#==================================Entry for Cakes==========================================================
+txtSchoolCake = Entry(Cakes_F, font=('arial', 16, 'bold'), bd=8, width=6, justify=LEFT, state=DISABLED)
+txtSchoolCake.grid(row=0, column=1)
+txtSunnyCake = Entry(Cakes_F, font=('arial', 16, 'bold'), bd=8, width=6, justify=LEFT, state=DISABLED)
+txtSunnyCake.grid(row=1, column=1)
+txtJonathanCake = Entry(Cakes_F, font=('arial', 16, 'bold'), bd=8, width=6, justify=LEFT, state=DISABLED)
+txtJonathanCake.grid(row=2, column=1)
+txtAfricanCake = Entry(Cakes_F, font=('arial', 16, 'bold'), bd=8, width=6, justify=LEFT, state=DISABLED)
+txtAfricanCake.grid(row=3, column=1)
+txtLagosCake = Entry(Cakes_F, font=('arial', 16, 'bold'), bd=8, width=6, justify=LEFT, state=DISABLED)
+txtLagosCake.grid(row=4, column=1)
+txtKilburnCake = Entry(Cakes_F, font=('arial', 16, 'bold'), bd=8, width=6, justify=LEFT, state=DISABLED)
+txtKilburnCake.grid(row=5, column=1)
+txtCarltonCake = Entry(Cakes_F, font=('arial', 16, 'bold'), bd=8, width=6, justify=LEFT, state=DISABLED)
+txtCarltonCake.grid(row=6, column=1)
+txtQueenCake = Entry(Cakes_F, font=('arial', 16, 'bold'), bd=8, width=6, justify=LEFT, state=DISABLED)
+txtQueenCake.grid(row=7, column=1)
+
 root.mainloop()
