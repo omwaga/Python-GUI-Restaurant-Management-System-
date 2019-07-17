@@ -16,8 +16,6 @@ Tops.pack(side=TOP)
 MenuFrame = Frame(root, width=800, height=700, bg="powder blue", relief=SUNKEN)
 MenuFrame.pack(side=LEFT)
 
-Frame2 = Frame(root, width=300, height=700, bg="powder blue", relief=SUNKEN)
-Frame2.pack(side=RIGHT)
 
 #Getting the local machine time
 localtime = time.asctime(time.localtime(time.time()))
@@ -42,13 +40,18 @@ Cost_F = Frame(MenuFrame, bg='powder blue', bd = 4)
 Cost_F.pack(side=LEFT)
 
 
-Cal_F = Frame(Frame2, bg='powder blue', bd=3,relief=RIDGE, width=300, height=200)
+
+ReceiptCal_F = Frame(root, bg='powder blue', bd=10, relief=RIDGE)
+ReceiptCal_F.pack(side=RIGHT)
+Buttons_F = Frame(ReceiptCal_F, bg='Powder Blue', bd=3,relief=RIDGE)
+Buttons_F.pack(side=BOTTOM)
+Cal_F = Frame(ReceiptCal_F, bg='powder blue', bd=3,relief=RIDGE, width=300, height=200)
 Cal_F.pack(side=TOP)
-Receipt_F = Frame(Frame2, bg='cadet blue', bd=3,relief=RIDGE, width=300, height=300)
+Receipt_F = Frame(ReceiptCal_F, bg='cadet blue', bd=3,relief=RIDGE, width=300, height=300)
 Receipt_F.pack(side=BOTTOM)
-#calculator
 
 
+#===================calculator==============================================================
 def btnclick(number):
     global operator
     operator = operator + str(number)
@@ -194,4 +197,17 @@ txtCarltonCake.grid(row=6, column=1)
 txtQueenCake = Entry(Cakes_F, font=('arial', 16, 'bold'), bd=8, width=6, justify=LEFT, state=DISABLED)
 txtQueenCake.grid(row=7, column=1)
 
+#===================================Receipt==================================================================
+txtReceipt = Text(Receipt_F, width=46, height=12,bg='white', bd=4, font=('arial', 12, 'bold'))
+txtReceipt.grid(row=0, column=0)
+
+#===================================buttons===================================================================
+btnTotal = Button(Buttons_F, padx=16, pady=1, bd=7, fg='black', font=('arial', 16, 'bold'), width=4, text="Total",
+                  bg="Powder Blue").grid(row=0, column=0)
+btnReceipt = Button(Buttons_F, padx=16, pady=1, bd=7, fg='black', font=('arial', 16, 'bold'), width=4, text="Receipt",
+                  bg="Powder Blue").grid(row=0, column=1)
+btnReset = Button(Buttons_F, padx=16, pady=1, bd=7, fg='black', font=('arial', 16, 'bold'), width=4, text="Reset",
+                  bg="Powder Blue").grid(row=0, column=2)
+btnExit = Button(Buttons_F, padx=16, pady=1, bd=7, fg='black', font=('arial', 16, 'bold'), width=4, text="Exit",
+                  bg="Powder Blue").grid(row=0, column=3)
 root.mainloop()

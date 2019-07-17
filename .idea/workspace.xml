@@ -2,7 +2,6 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="bffb4d41-6f6f-42f6-8304-877a9a158028" name="Default Changelist" comment="">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.py" beforeDir="false" afterPath="$PROJECT_DIR$/main.py" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
@@ -16,8 +15,8 @@
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.py">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="207">
-              <caret line="194" column="12" selection-start-line="194" selection-start-column="12" selection-end-line="194" selection-end-column="12" />
+            <state relative-caret-position="427">
+              <caret line="204" selection-start-line="204" selection-end-line="205" selection-end-column="57" />
               <folding>
                 <element signature="e#0#20#0" expanded="true" />
               </folding>
@@ -45,8 +44,7 @@
     </option>
   </component>
   <component name="ProjectFrameBounds" extendedState="6">
-    <option name="x" value="650" />
-    <option name="y" value="86" />
+    <option name="x" value="530" />
     <option name="width" value="710" />
     <option name="height" value="688" />
   </component>
@@ -131,7 +129,7 @@
     <servers />
   </component>
   <component name="ToolWindowManager">
-    <frame x="-8" y="-8" width="1382" height="744" extended-state="6" />
+    <frame x="530" y="0" width="710" height="688" extended-state="0" />
     <editor active="true" />
     <layout>
       <window_info content_ui="combo" id="Project" order="0" weight="0.5" />
@@ -139,7 +137,7 @@
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
       <window_info anchor="bottom" id="Find" order="1" />
-      <window_info active="true" anchor="bottom" id="Run" order="2" visible="true" weight="0.36006546" />
+      <window_info anchor="bottom" id="Run" order="2" weight="0.39459458" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
       <window_info anchor="bottom" id="Inspection" order="5" weight="0.4" />
@@ -156,8 +154,8 @@
   <component name="editorHistoryManager">
     <entry file="file://$PROJECT_DIR$/main.py">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="194" column="12" selection-start-line="194" selection-start-column="12" selection-end-line="194" selection-end-column="12" />
+        <state relative-caret-position="427">
+          <caret line="204" selection-start-line="204" selection-end-line="205" selection-end-column="57" />
           <folding>
             <element signature="e#0#20#0" expanded="true" />
           </folding>
